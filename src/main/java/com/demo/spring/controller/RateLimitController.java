@@ -13,6 +13,6 @@ public class RateLimitController{
         @PostMapping("/limit")
         @WithRateLimitProtection
         public String processRequest() {
-            return "this is Girish";
+            return "processing your request...";
         }
 }
